@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-image: url(images/bg.jpg); 
+     background-repeat:no-repeat;
+     
+    /* background-position: center; */
+    background-size: cover;
+
+    font-family: sans-serif;
+}
+
+/* .img{
+    display:inline-block;
+} */
+
+.menu-bar{
+    background-color: rgb(14, 126, 14);
+    text-align: center;
+     opacity: 0.9; /*transparent menu bar */
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar ul li{
+    width: 180px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: rgb(99, 241, 99);
+    border-radius: 3px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.sub-menu-abt{
+    display: none;
+    
+    
+    
+}
+
+.menu-bar ul li:hover .sub-menu-abt{
+    
+    display: block;
+    position: absolute;
+    background-color: rgb(14, 126, 14);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-abt ul{
+ 
+    display: block;
+
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-abt ul li{
+    
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    z-index:5;
+
+}
+
+.menu-bar ul li:hover .sub-menu-abt ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-abt ul li a:hover{
+    color: darkgreen;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+.sub-sub-menu{
+    display: none;
+}
+
+.hover-me:hover .sub-sub-menu{
+    
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:rgb(14, 126, 14);
+}
+
+.carousel-inner img {
+    width:100%;
+    
+    
+  }
+
+
+.mission{
+ max-width: 600px;
+  margin: 0px ;
+  padding: 20px;
+  text-align: justify;
+
+}
+
+
+
+
+.profile{
+    max-width: 730px;
+    margin: 0px auto;
+    padding: 5px;
+  
+
+}
+
+.foot{
+    background-color: rgb(14, 126, 14) !important;
+    color: white;
+    opacity: 0.9; /*transparent menu bar */
+    
+    width: 100%;
+}
+
+div.fixed-height {
+    height: 900px !important;
+    }
+
+form{
+    max-width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
