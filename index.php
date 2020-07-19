@@ -18,7 +18,7 @@ if(isset($_SESSION['user']))
     <?php include('template/style.css'); ?>
     </style>
     <a href="logout.php">Logout</a>
-    <h1>Welcome <?php echo $_SESSION['user'];?></h1>
+    <h1 class="text-uppercase">Welcome <?php echo $_SESSION['user'];?></h1>
     <div class="container fixed-height">
 
     </div>
