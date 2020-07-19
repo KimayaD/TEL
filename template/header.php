@@ -68,7 +68,7 @@
                 </li>
 
                 <li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
-                <li><a href="signup.php"><i class="fa fa-phone"></i>Signup</a></li>
+                <li><a href="signup.php"><i class="fa fa-phone"></i>Signup/Login</a></li>
             </ul>
 
         </div>
